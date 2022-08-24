@@ -18,6 +18,9 @@
 		8240BDFC28AE928E0054452F /* MusicMatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240BDFB28AE928E0054452F /* MusicMatchUITestsLaunchTests.swift */; };
 		8240BE1128AE9BB50054452F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240BE1028AE9BB50054452F /* Constants.swift */; };
 		8240BE1428AEA2A50054452F /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8240BE1328AEA2A50054452F /* SpotifyiOS.framework */; };
+		82AAD03828B56D9600EDAB09 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AAD03728B56D9600EDAB09 /* LoginViewController.swift */; };
+		82AAD03A28B56DB500EDAB09 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AAD03928B56DB500EDAB09 /* HomeViewController.swift */; };
+		82AAD03D28B5768300EDAB09 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AAD03C28B5768300EDAB09 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		8240BE0D28AE99630054452F /* MusicMatch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicMatch-Bridging-Header.h"; sourceTree = "<group>"; };
 		8240BE1028AE9BB50054452F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8240BE1328AEA2A50054452F /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyiOS.framework; path = MusicMatch/SpotifyiOS.framework; sourceTree = "<group>"; };
+		82AAD03728B56D9600EDAB09 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		82AAD03928B56DB500EDAB09 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		82AAD03C28B5768300EDAB09 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +111,11 @@
 			isa = PBXGroup;
 			children = (
 				8240BDDE28AE92890054452F /* Main.storyboard */,
+				82AAD03B28B56DD900EDAB09 /* Views */,
 				8240BDDA28AE92890054452F /* SceneDelegate.swift */,
-				8240BDDC28AE92890054452F /* ViewController.swift */,
+				8240BDD828AE92890054452F /* AppDelegate.swift */,
 				8240BE1028AE9BB50054452F /* Constants.swift */,
+				8240BDDC28AE92890054452F /* ViewController.swift */,
 				8240BE0D28AE99630054452F /* MusicMatch-Bridging-Header.h */,
 				8240BDE628AE928E0054452F /* Info.plist */,
 				8240BE0A28AE98CE0054452F /* Files */,
@@ -137,7 +145,6 @@
 			children = (
 				8240BDF828AE928E0054452F /* MusicMatchUITests */,
 				8240BDEE28AE928E0054452F /* MusicMatchTests */,
-				8240BDD828AE92890054452F /* AppDelegate.swift */,
 				8240BDE128AE928E0054452F /* Assets.xcassets */,
 				8240BDE328AE928E0054452F /* LaunchScreen.storyboard */,
 			);
@@ -150,6 +157,16 @@
 				8240BE1328AEA2A50054452F /* SpotifyiOS.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82AAD03B28B56DD900EDAB09 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				82AAD03C28B5768300EDAB09 /* SettingsViewController.swift */,
+				82AAD03728B56D9600EDAB09 /* LoginViewController.swift */,
+				82AAD03928B56DB500EDAB09 /* HomeViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,8 +303,11 @@
 			files = (
 				8240BDDD28AE92890054452F /* ViewController.swift in Sources */,
 				8240BDD928AE92890054452F /* AppDelegate.swift in Sources */,
+				82AAD03D28B5768300EDAB09 /* SettingsViewController.swift in Sources */,
 				8240BDDB28AE92890054452F /* SceneDelegate.swift in Sources */,
+				82AAD03828B56D9600EDAB09 /* LoginViewController.swift in Sources */,
 				8240BE1128AE9BB50054452F /* Constants.swift in Sources */,
+				82AAD03A28B56DB500EDAB09 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

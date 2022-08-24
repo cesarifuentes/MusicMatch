@@ -7,17 +7,11 @@
 
 import Foundation
 
+let SpotifyClientID = "0e10132158354330a41de8afaf122210"
+let SpotifyRedirectURI = URL(string: "musicmatch://")!
+let SpotifyClientSecretKey = "288a432f88b74e628a83af682e24a27d"
 let accessTokenKey = "access-token-key"
-let redirectUri = URL(string:"musicmatch://")!
-let spotifyClientId = "0e10132158354330a41de8afaf122210"
-let spotifyClientSecretKey = "288a432f88b74e628a83af682e24a27d"
 
-/*
-Scopes let you specify exactly what types of data your application wants to
-access, and the set of scopes you pass in your call determines what access
-permissions the user is asked to grant.
-For more information, see https://developer.spotify.com/web-api/using-scopes/.
-*/
 let scopes: SPTScope = [
                             .userReadEmail, .userReadPrivate,
                             .userReadPlaybackState, .userModifyPlaybackState, .userReadCurrentlyPlaying,
