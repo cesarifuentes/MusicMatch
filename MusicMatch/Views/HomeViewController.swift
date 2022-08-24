@@ -25,9 +25,7 @@ class HomeViewController: UIViewController {
     }
 
     
-    
 
-    
     @objc func loadSettings() {
         let story = UIStoryboard(name: "Main", bundle: nil)
         let controller = story.instantiateViewController(withIdentifier: "SettingsView") as! SettingsViewController
